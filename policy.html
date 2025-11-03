@@ -1,1 +1,136 @@
 
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glotts - Account Deletion Policy</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Vazirmatn:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Base styles for a clean, responsive layout */
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa; /* Light gray background */
+            color: #343a40; /* Dark text */
+            line-height: 1.6;
+            direction: ltr; /* Default LTR direction */
+        }
+        
+        /* Apply Vazirmatn font for Farsi text (since the content is mostly English, this acts as a global fallback for good Farsi rendering) */
+        h1, h2, p, ul, li {
+             font-family: 'Inter', 'Vazirmatn', sans-serif;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #004f98; /* App Primary Color (Deep Blue) */
+            font-size: 2em;
+            border-bottom: 2px solid #e9ecef;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #4a6361; /* App Secondary Color (Dark Slate) */
+            font-size: 1.5em;
+            margin-top: 30px;
+        }
+
+        strong {
+            font-weight: 600;
+        }
+
+        .email-address {
+            font-weight: 700;
+            color: #dc3545; /* Highlight email in red for attention */
+            word-break: break-all;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 600px) {
+            .container {
+                margin: 20px;
+                padding: 15px;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Glotts - Account and Data Deletion Policy</h1>
+
+        <p>This policy explains how users can request the deletion of their accounts and associated personal data from the Glotts service.</p>
+
+        <h2>1. How to Request Account Deletion</h2>
+        <p>To request the permanent deletion of your Glotts user account and all associated data, please follow the steps below:</p>
+
+        <ul>
+            <li>
+                <strong>Option A: Email Request (Recommended)</strong>: 
+                Send an email to our dedicated support email address: 
+                <span class="email-address">raadixdec@gmail.com</span>.
+            </li>
+            <li>
+                The email subject line **must** be: 
+                <strong>"Account Deletion Request - [Your Registered Email]"</strong>.
+            </li>
+            <li>
+                In the body of the email, please confirm your wish to delete your account and the email address associated with your Glotts account.
+            </li>
+        </ul>
+        
+        <p>Your request will be handled by our support team, and deletion will be processed manually after identity verification.</p>
+
+
+        <h2>2. What Data is Deleted?</h2>
+        <p>Upon successful verification of your request, Glotts will permanently delete the following data associated with your account from our servers (Firebase Firestore) and internal databases:</p>
+
+        <ul>
+            <li>
+                <strong>Authentication Data</strong>: Your registered email address and user ID (UID) from Firebase Authentication.
+            </li>
+            <li>
+                <strong>Learning Progress</strong>: All progress data, including your Review Progress (word scores, streak counts, due dates).
+            </li>
+            <li>
+                <strong>Learning Profiles</strong>: All custom learning profiles you have created.
+            </li>
+            <li>
+                <strong>Smart Review Data</strong>: Any custom word lists or smart review profiles you have created.
+            </li>
+            <li>
+                <strong>Settings and Statistics</strong>: All personalized app settings, user skill levels, learning time records, and review statistics (e.g., streaks, daily reviewed counts).
+            </li>
+        </ul>
+
+        <h2>3. Data Retention and Deletion Period</h2>
+        <p>
+            Once your identity is verified, we will initiate the deletion process. This process is typically completed within **30 days**. 
+            We will notify you via email once the deletion is complete.
+        </p>
+
+        <p style="margin-top: 40px; font-size: 0.9em; color: #6c757d;">
+            Last Updated: November 3, 2025
+        </p>
+    </div>
+
+</body>
+</html>
